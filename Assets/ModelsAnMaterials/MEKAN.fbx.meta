@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: c7a9472aaead9a64aaa48f387799b25a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arka_duvar_
+    100002: arka_duvar__2
+    100004: Boole
+    100006: Cloner
+    100008: Cube
+    100010: Cube_1
+    100012: Cube_1_0
+    100014: Cube_1_1
+    100016: Cube_1_2
+    100018: Cube_1_3
+    100020: Cube_1_4
+    100022: Cube_1_5
+    100024: Cube_2
+    100026: Cube_2_2
+    100028: Cylinder
+    100030: duvar_ve_yer_
+    100032: //RootNode
+    100034: Null
+    100036: Null_2
+    100038: pencere_
+    100040: pencere__1
+    100042: pencere__1_2
+    100044: pencere__1_3
+    100046: pencere__2
+    100048: pencere__3
+    100050: pencere__4
+    100052: pencere__5
+    100054: "pencere_art\u0131s\u0131_"
+    100056: "pencere_art\u0131s\u0131__1"
+    100058: "pencere_art\u0131s\u0131__2"
+    100060: Plane
+    100062: Plane_2
+    100064: Symmetry
+    100066: Symmetry_2
+    100068: "\xE7at\u0131_"
+    400000: arka_duvar_
+    400002: arka_duvar__2
+    400004: Boole
+    400006: Cloner
+    400008: Cube
+    400010: Cube_1
+    400012: Cube_1_0
+    400014: Cube_1_1
+    400016: Cube_1_2
+    400018: Cube_1_3
+    400020: Cube_1_4
+    400022: Cube_1_5
+    400024: Cube_2
+    400026: Cube_2_2
+    400028: Cylinder
+    400030: duvar_ve_yer_
+    400032: //RootNode
+    400034: Null
+    400036: Null_2
+    400038: pencere_
+    400040: pencere__1
+    400042: pencere__1_2
+    400044: pencere__1_3
+    400046: pencere__2
+    400048: pencere__3
+    400050: pencere__4
+    400052: pencere__5
+    400054: "pencere_art\u0131s\u0131_"
+    400056: "pencere_art\u0131s\u0131__1"
+    400058: "pencere_art\u0131s\u0131__2"
+    400060: Plane
+    400062: Plane_2
+    400064: Symmetry
+    400066: Symmetry_2
+    400068: "\xE7at\u0131_"
+    2100000: Mat.4
+    2100002: Mat.7
+    2100004: Mat.15
+    2100006: Mat.8
+    2100008: No Name
+    2100010: Mat.7.1
+    2300000: arka_duvar__2
+    2300002: Cube
+    2300004: Cube_1
+    2300006: Cube_1_0
+    2300008: Cube_1_1
+    2300010: Cube_1_2
+    2300012: Cube_1_3
+    2300014: Cube_1_4
+    2300016: Cube_1_5
+    2300018: Cube_2
+    2300020: Cube_2_2
+    2300022: pencere_
+    2300024: pencere__1
+    2300026: pencere__1_2
+    2300028: pencere__1_3
+    2300030: pencere__2
+    2300032: pencere__3
+    2300034: pencere__4
+    2300036: pencere__5
+    2300038: Plane
+    2300040: Plane_2
+    3300000: arka_duvar__2
+    3300002: Cube
+    3300004: Cube_1
+    3300006: Cube_1_0
+    3300008: Cube_1_1
+    3300010: Cube_1_2
+    3300012: Cube_1_3
+    3300014: Cube_1_4
+    3300016: Cube_1_5
+    3300018: Cube_2
+    3300020: Cube_2_2
+    3300022: pencere_
+    3300024: pencere__1
+    3300026: pencere__1_2
+    3300028: pencere__1_3
+    3300030: pencere__2
+    3300032: pencere__3
+    3300034: pencere__4
+    3300036: pencere__5
+    3300038: Plane
+    3300040: Plane_2
+    4300000: Cube_1_0
+    4300002: Cube_1_1
+    4300004: Cube_1_2
+    4300006: Cube_1_3
+    4300008: Cube_1_4
+    4300010: Cube_1_5
+    4300012: Cube
+    4300014: Plane
+    4300016: pencere__1
+    4300018: pencere_
+    4300020: pencere__1_2
+    4300022: pencere__2
+    4300024: pencere__1_3
+    4300026: pencere__3
+    4300028: Cube_1
+    4300030: pencere__4
+    4300032: Plane_2
+    4300034: arka_duvar__2
+    4300036: pencere__5
+    4300038: Cube_2
+    4300040: Cube_2_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.15
+    second: {fileID: 2100000, guid: 4cb264ed11405c941bbebb1d1f3104d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.4
+    second: {fileID: 2100000, guid: 4cb264ed11405c941bbebb1d1f3104d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.7
+    second: {fileID: 2100000, guid: ffdf0bb0dfb3cd643b832cd635182a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.7.1
+    second: {fileID: 2100000, guid: ffdf0bb0dfb3cd643b832cd635182a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.8
+    second: {fileID: 2100000, guid: 070a97c51049dbd45a807ef8de150ae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 070a97c51049dbd45a807ef8de150ae1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
