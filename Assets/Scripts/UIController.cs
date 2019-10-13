@@ -7,6 +7,10 @@ public class UIController : MonoBehaviour
     public static UIController Instance { get; private set; }
     public GameObject Cutter;
     public GameObject GameOverScene;
+    public bool goSol = false;
+    public bool goSag = false;
+    public bool Movement = true;
+
     // Start is called before the first frame update
 
     private void Awake()

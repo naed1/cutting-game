@@ -5,9 +5,9 @@ using UnityEngine.EventSystems;
 public class Sag : MonoBehaviour ,IPointerDownHandler, IPointerUpHandler
 {
     public float speed = 3f;
-    private bool isDown;
-    private float downTime;
-    bool goSag = false;
+    //private bool isDown;
+    //private float downTime;
+
 
     void Update()
     {
@@ -19,25 +19,28 @@ public class Sag : MonoBehaviour ,IPointerDownHandler, IPointerUpHandler
             
             this.isDown = false;
         }*/
-
-        if (goSag)
+        if (UIController.Instance.Movement)
         {
-            UIController.Instance.Cutter.transform.Translate(-Vector3.left * Time.deltaTime * speed);
+            if (UIController.Instance.goSag)
+            {
+                UIController.Instance.Cutter.transform.Translate(-Vector3.left * Time.deltaTime * speed);
+            }
         }
+        
 
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        this.isDown = true;
-        this.downTime = Time.realtimeSinceStartup;
-        goSag = true;
+        //this.isDown = true;
+        //this.downTime = Time.realtimeSinceStartup;
+        UIController.Instance.goSag = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        this.isDown = false;
-        goSag = false;
+        //this.isDown = false;
+        UIController.Instance.goSag = false;
     }
 
    

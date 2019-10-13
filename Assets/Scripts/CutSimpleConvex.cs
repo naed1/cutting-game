@@ -55,8 +55,8 @@ public class CutSimpleConvex : MonoBehaviour {
         {
             Debug.Log("Fail");
             UIController.Instance.GameOver();
-            UIController.Instance.Cutter.GetComponent<Sol>().enabled = false;
-            UIController.Instance.Cutter.GetComponent<Sag>().enabled = false;
+            UIController.Instance.Movement = false;
+            
 
             return;
         }else if (other.gameObject.tag == "Wood")
@@ -71,8 +71,7 @@ public class CutSimpleConvex : MonoBehaviour {
             Destroy(other.transform.parent.gameObject);
             CameraShake.Shake(0.25f, 0.2f);
             StartCoroutine("cutWait");
-            UIController.Instance.Cutter.GetComponent<Sol>().enabled = false;
-            UIController.Instance.Cutter.GetComponent<Sag>().enabled = false;
+            UIController.Instance.Movement = false;
 
         }
 
@@ -83,8 +82,7 @@ public class CutSimpleConvex : MonoBehaviour {
     IEnumerator cutWait()
     {
         yield return new WaitForSeconds(0.2f);
-        UIController.Instance.Cutter.GetComponent<Sol>().enabled = true;
-        UIController.Instance.Cutter.GetComponent<Sag>().enabled = true;
+        UIController.Instance.Movement = true;
         //Cut();
         //Destroy(GameObject.Find(CalledObject));
 

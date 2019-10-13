@@ -5,9 +5,8 @@ using UnityEngine.EventSystems;
 public class Sol : MonoBehaviour ,IPointerDownHandler, IPointerUpHandler
 {
     public float speed = 3f;
-    private bool isDown;
-    private float downTime;
-    bool goSol = false;
+    //private bool isDown;
+    //private float downTime;
 
     void Update()
     {
@@ -18,24 +17,29 @@ public class Sol : MonoBehaviour ,IPointerDownHandler, IPointerUpHandler
             print("Handle Long Tap");
             this.isDown = false;
         }*/
-        if (goSol)
+        if (UIController.Instance.Movement)
         {
-            UIController.Instance.Cutter.transform.Translate(Vector3.left * Time.deltaTime * speed);
+            if (UIController.Instance.goSol)
+            {
+                UIController.Instance.Cutter.transform.Translate(Vector3.left * Time.deltaTime * speed);
+            }
         }
+        
 
     }
 
+
     public void OnPointerDown(PointerEventData eventData)
     {
-        this.isDown = true;
-        this.downTime = Time.realtimeSinceStartup;
-        goSol = true;
+        //this.isDown = true;
+        //this.downTime = Time.realtimeSinceStartup;
+        UIController.Instance.goSol = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        this.isDown = false;
-        goSol = false;
+        //this.isDown = false;
+        UIController.Instance.goSol = false;
     }
 
    
